@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/formsinputs_source.css">
+</head>
+
+<!-- Body starts here/-->
+<body>
+<img src="Analogsea.png" class="leauxgeaux">
+	<div class="container">
+	<legend>Sign up</legend>
+		<form class="demo-form" action="/signup" method='post'>
+		<fieldset name="login-info">
+			<label for="Emailentry" required>Email<input placeholder="foo@bar.com" name="Emailentry" type="text"></label>
+			<label for="Passwordentry" required>Password<input placeholder="1234passw0rd" label="false" type="password" name="Passwordentry" type="text"></label>
+
+		<button type="Submit">Sign up</button>
+		</fieldset>
+		<a href="/forgot-password/new" class="forgot">Forgot password?</a>
+	</div>
+<div class="footer">
+	<p>Already have an account? <a class="login" href="/login">Log in </a></p>
+</div>
+</form>
+</body>
+</html>
